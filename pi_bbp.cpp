@@ -63,7 +63,7 @@ double Bbp::S(int j)
     double t;              // Each term of right summation
     int    r;              // Denominator
     int    k;              // Loop index
-    double EPS = 1.0e-17;  // 打ち切り精度
+    double EPS = 1.0e-17;  // Loop-exit accuration of the right summation
 
     // Left Sum (0 ... d)
     for (k = 0; k <= d; k++) {
